@@ -79,7 +79,7 @@ func main() {
 	} else {
 		if len(recipients)+len(pubkeyname) == 0 {
 			flag.Usage()
-			log.Fatal("Error: at least one -u or -pubkey is required for encryption")
+			log.Fatal("Error: at least one of -u or -K is required for encryption")
 		}
 		encrypted, err := encrypt(readFile(filename), recipients, string(readFile(pubkeyname)))
 		if err != nil {
