@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "N5fb5y92DFIP+wUhi1rSwPp9vyk=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "77f4136a99ffb5ecdbdd0226bd5cb146cf56bc0e",
+			"revisionTime": "2016-06-07T10:36:12Z"
+		},
+		{
+			"checksumSHA1": "2JsNOppUuQ4U2wZ3csA6GXlLVGE=",
+			"path": "gopkg.in/edn.v1",
+			"revision": "470b0ab438bbcd34ad4b5cab3d1eb1c13d69d6b9",
+			"revisionTime": "2016-02-06T22:04:05Z"
+		}
+	],
+	"rootPath": "github.com/sgrankin/shcrypt"
+}
